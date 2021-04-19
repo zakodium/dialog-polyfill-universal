@@ -1,0 +1,41 @@
+{
+  "name": "dialog-polyfill-universal",
+  "version": "1.0.0",
+  "description": "A re-export of the dialog-polyfill module compatible with SSR",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": "./browser.js",
+      "default": "./index.cjs"
+    }
+  },
+  "browser": "./browser.js",
+  "files": [
+    "browser.js",
+    "index.cjs",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakodium/dialog-polyfill-universal.git"
+  },
+  "keywords": [
+    "dialog",
+    "polyfill",
+    "universal",
+    "ssr",
+    "next",
+    "next.js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zakodium/dialog-polyfill-universal/issues"
+  },
+  "homepage": "https://github.com/zakodium/dialog-polyfill-universal#readme",
+  "dependencies": {
+    "dialog-polyfill": "^0.5.6"
+  }
+}
