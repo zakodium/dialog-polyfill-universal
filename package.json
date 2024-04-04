@@ -1,6 +1,6 @@
 {
   "name": "dialog-polyfill-universal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A re-export of the dialog-polyfill module compatible with SSR",
   "type": "module",
   "exports": {
