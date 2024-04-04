@@ -5,6 +5,7 @@
   "type": "module",
   "exports": {
     ".": {
+      "types": "./index.d.ts",
       "browser": "./browser.js",
       "default": "./index.cjs"
     }
